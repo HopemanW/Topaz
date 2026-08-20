@@ -1,13 +1,14 @@
 [project]
 name = "topaz-auto-enhance"
-version = "0.1.0"
-description = "Automation CLI for Topaz Video enhancement and frame interpolation"
+version = "0.2.0"
+description = "Adaptive automation CLI for Topaz Video enhancement and frame interpolation"
 requires-python = ">=3.10"
 license = {text = "MIT"}
 authors = [{name = "HopemanW"}]
 
 [project.scripts]
 topaz-auto = "topaz_auto:main"
+adaptive-topaz = "adaptive_topaz:main"
 
 [tool.ruff]
 line-length = 100
