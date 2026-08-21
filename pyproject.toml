@@ -4,7 +4,7 @@ version = "0.2.0"
 description = "Adaptive automation CLI for Topaz Video enhancement and frame interpolation"
 requires-python = ">=3.10"
 license = {text = "MIT"}
-authors = [{name = "HopemanW"}]
+authors = [{name = "Andy Wang"}]
 
 [project.scripts]
 topaz-auto = "topaz_auto:main"
