@@ -1,6 +1,6 @@
 # Topaz Adaptive Video Pipeline
 
-![CI](https://github.com/HopemanW/Topaz/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/ZhiWang-Andy/Topaz/actions/workflows/ci.yml/badge.svg)
 
 A production-style automation layer around **Topaz Video / Topaz Video AI's bundled FFmpeg**. The project can inspect a source video, estimate quality/compression characteristics, choose an enhancement model, build a Topaz filter graph, select a hardware encoder, batch-process files, and save machine-readable telemetry.
 
